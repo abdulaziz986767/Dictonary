@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/enghEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:background="@drawable/shape_rect"
+        android:hint="@string/english"
+        android:autofillHints="@string/english" />
+
+    <EditText
+        android:id="@+id/uEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:background="@drawable/shape_rect"
+        android:inputType="textCapWords"
+        android:hint="@string/uzb"
+        android:autofillHints="@string/uzb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnPervious"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pervious"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"/>
+
+    </LinearLayout>
+
+</LinearLayout>
